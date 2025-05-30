@@ -1,0 +1,5 @@
+/home/cs135-spring2025-022/presenting/Present-Your-Purrmit/.utmp/RelWithDebInfo/5q1a3l20/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/cs135-spring2025-022/presenting/Present-Your-Purrmit/.utmp/RelWithDebInfo/5q1a3l20/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/cs135-spring2025-022/presenting/Present-Your-Purrmit/.utmp/RelWithDebInfo/5q1a3l20/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/home/cs135-spring2025-022/presenting/Present-Your-Purrmit/.utmp/RelWithDebInfo/5q1a3l20/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/home/cs135-spring2025-022/presenting/Present-Your-Purrmit/.utmp/RelWithDebInfo/5q1a3l20/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
