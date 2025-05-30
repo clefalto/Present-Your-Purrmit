@@ -1,0 +1,47 @@
+---TUTORIAL---
+
+Boss Cat:
+
+Welcome to your first day on the job, <name>!
+As your boss, I'm here to show you the ropes.
+Let me pass something to you real quick.
+[passes his purr-mit]
+This is, of course, our Meowzkovia permit.
+You can tell pretty quickly with the seal on the back and the info down there.
+Just make sure the expiry and vaccinations are up to date and you're all good.
+[passes his vaccine record]
+These vaccine papers are also to make sure the information on the permit is legit.
+Finally, you have some stamps on your desk, Accept and Reject.
+So since all my papers are legit, please place an Accept stamp on my permit.
+Then, pass all my papers back to me.
+
+[player stamps the permit and passes the papers back]
+
+IF THE STAMP IS ACCEPT:
+Thank you so much. 
+Good luck with the rest of your shift!
+[walks away]
+
+IF THE STAMP IS REJECT:
+Oh. You accidentally rejected me.
+That's okay, you're still learning!
+I'm sure you'll get the hang of it soon!
+Good luck with the rest of your shift!
+[walks away]
+
+---THE REAL GAME BEGINS---
+
+Regular Characters:
+
+Hello, here are my papers.
+[passes papers]
+
+[player stamps the permit and passes the papers back]
+
+IF THE STAMP IS REJECT:
+Oh. I see. Bye.
+[walks away from where he came from]
+
+IF THE STAMP IS ACCEPT:
+Thank you! Have a great day, sir/madam!
+[walks away on the other side]
