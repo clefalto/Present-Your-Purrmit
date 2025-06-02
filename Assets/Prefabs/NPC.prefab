@@ -362,6 +362,7 @@ MonoBehaviour:
   dialogueShowTime: 7
   moveSpeed: 5
   bobSpeed: 5
+  permitPrefab: {fileID: 6016338486055832315, guid: a46581dfe56ea194d8c679bb9ebe2a35, type: 3}
   numRejected: 0
   total: 0
   highRejectedDialogue: {fileID: 0}
