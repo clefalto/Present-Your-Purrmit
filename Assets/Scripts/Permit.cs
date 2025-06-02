@@ -19,6 +19,22 @@ public class Permit : MonoBehaviour
     {
         rejectStamp = GameObject.FindWithTag("RejectStamp");
         acceptStamp = GameObject.FindWithTag("AcceptStamp");
+        
+        var complongles = GetComponents<TextureChanger>();
+        // gee i sure hope this doesn't create any race conditions!
+        if (complongles[0].forReject)
+        {
+            complongles[0].object2 = rejectStamp;
+            complongles[1].object2 = acceptStamp;
+        }
+        else
+        {
+            complongles[0].object2 = acceptStamp;
+            complongles[1].object2 = rejectStamp;
+        }
+        
+        Debug.Log(rejectStamp);
+        Debug.Log(acceptStamp);
     }
 
     void OnCollisionEnter(Collision collision)

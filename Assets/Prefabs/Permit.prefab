@@ -338,6 +338,7 @@ MonoBehaviour:
   newMaterial: {fileID: 2100000, guid: 50b4d33824c4bbf439b958bfcffa2059, type: 2}
   object2: {fileID: 0}
   mesh: {fileID: 937821184751819233}
+  forReject: 1
 --- !u!114 &9201063604852889719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,6 +354,7 @@ MonoBehaviour:
   newMaterial: {fileID: 2100000, guid: f82f2b88ddd55e14bbe75ab4723308a4, type: 2}
   object2: {fileID: 0}
   mesh: {fileID: 937821184751819233}
+  forReject: 0
 --- !u!114 &1277392827849767973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,7 +369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stampStatus: 0
   rejectStamp: {fileID: 0}
-  approveStamp: {fileID: 0}
+  acceptStamp: {fileID: 0}
 --- !u!1001 &8957498407482137705
 PrefabInstance:
   m_ObjectHideFlags: 0
