@@ -91,5 +91,10 @@ public class NPCManager : MonoBehaviour
             }
         }
     }
+
+    public void SendVerdictToNPC(bool verdict) 
+    {
+        activeNPC.GiveVerdict(verdict);
+    }
     
 }
