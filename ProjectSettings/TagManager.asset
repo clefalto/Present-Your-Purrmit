@@ -30,6 +30,7 @@ TagManager:
   - QDSUIToggleCheckboxRadio
   - RejectStamp
   - AcceptStamp
+  - Permit
   layers:
   - Default
   - TransparentFX

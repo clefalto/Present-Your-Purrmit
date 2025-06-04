@@ -4,16 +4,35 @@ using UnityEngine;
 public class PaperSubmittingZone : MonoBehaviour
 {
     public bool isTriggering = false;
-    public Collider collidingBody; 
+    public Collider collidingBody;
 
+    public void OnTriggerStay(Collider other)
+    {
+        if (other)
+        {
+            if (other.gameObject.CompareTag("Permit"))
+            {
+                isTriggering = true;
+                collidingBody = other;
+            }
+        }
+    }
+    
     public void OnTriggerEnter(Collider other)
     {
-        isTriggering = true;
-        collidingBody = other;
+        if (other.gameObject.CompareTag("Permit"))
+        {
+            isTriggering = true;
+            collidingBody = other;
+        }
     }
 
     public void OnTriggerExit(Collider other)
     {
-        isTriggering = false;
+        if (other.gameObject.CompareTag("Permit"))
+        {
+            isTriggering = false;
+            collidingBody = null;
+        }
     }
 }

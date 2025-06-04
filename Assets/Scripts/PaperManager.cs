@@ -35,22 +35,25 @@ public class PaperManager : MonoBehaviour
         {
             // check if it's like stamped
             // try get component for funsies
-            if (psz.collidingBody.TryGetComponent<Permit>(out Permit p))
+            if (psz.collidingBody)
             {
-                switch (p.stampStatus) 
+                if (psz.collidingBody.TryGetComponent<Permit>(out Permit p))
                 {
-                    case Permit.StampStatus.accepted:
-                        NPCManager.Instance.SendVerdictToNPC(true);
-                        Destroy(p.gameObject);
-                        break;
-                    case Permit.StampStatus.rejected:
-                        NPCManager.Instance.SendVerdictToNPC(false);
-                        Destroy(p.gameObject);
-                        break;
-                    case Permit.StampStatus.unstamped:
-                        p.transform.position = paperDropLocation.transform.position;
-                        // don't destroy the go in this case... because we just need to move it to the right place
-                        break;
+                    switch (p.stampStatus)
+                    {
+                        case Permit.StampStatus.accepted:
+                            NPCManager.Instance.SendVerdictToNPC(true);
+                            Destroy(p.gameObject);
+                            break;
+                        case Permit.StampStatus.rejected:
+                            NPCManager.Instance.SendVerdictToNPC(false);
+                            Destroy(p.gameObject);
+                            break;
+                        case Permit.StampStatus.unstamped:
+                            p.transform.position = paperDropLocation.transform.position;
+                            // don't destroy the go in this case... because we just need to move it to the right place
+                            break;
+                    }
                 }
             }
         }

@@ -7231,7 +7231,7 @@ GameObject:
   - component: {fileID: 487324553}
   m_Layer: 0
   m_Name: CoffeeCup
-  m_TagString: AcceptStamp
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25385,7 +25385,7 @@ GameObject:
   - component: {fileID: 1546513617}
   m_Layer: 0
   m_Name: Mouse
-  m_TagString: AcceptStamp
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26743,7 +26743,7 @@ GameObject:
   - component: {fileID: 1636572262}
   m_Layer: 0
   m_Name: Keyboard
-  m_TagString: AcceptStamp
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31356,8 +31356,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.750723, y: 1.5021443, z: 2.5435622}
-  m_Center: {x: 0.2351613, y: 0.2510722, z: -0.31443822}
+  m_Size: {x: 5.949732, y: 2.7066054, z: 2.5435622}
+  m_Center: {x: 0.2720784, y: 0.8533027, z: -0.31443822}
 --- !u!114 &1885379634
 MonoBehaviour:
   m_ObjectHideFlags: 0
