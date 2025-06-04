@@ -31,6 +31,7 @@ TagManager:
   - RejectStamp
   - AcceptStamp
   - Permit
+  - CoffeeCup
   layers:
   - Default
   - TransparentFX

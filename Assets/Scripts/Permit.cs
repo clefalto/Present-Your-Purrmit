@@ -14,6 +14,15 @@ public class Permit : MonoBehaviour
 
     public GameObject rejectStamp;
     public GameObject acceptStamp;
+    public AudioSource sound;
+
+    public void playSound()
+    {
+        if (sound != null)
+        {
+            sound.Play();
+        }
+    }
 
     void Start()
     {
@@ -42,10 +51,12 @@ public class Permit : MonoBehaviour
         if (collision.gameObject == rejectStamp)
         {
             stampStatus = StampStatus.rejected;
+            playSound();
         }
         else if (collision.gameObject == acceptStamp)
         {
             stampStatus = StampStatus.accepted;
+            playSound();
         }
     }
 }
