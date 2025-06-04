@@ -34,9 +34,6 @@ public class NPC : MonoBehaviour
     public float moveSpeed = 5.0f;
     public float bobSpeed = 5.0f;
     
-    // prefabs
-    public GameObject permitPrefab;
-    
     // certain dialogue specific things, would usually move this to the NPC manager to parse them for us but i dont care!
     public int numRejected = 0;
     public int total = 0;
@@ -188,12 +185,6 @@ public class NPC : MonoBehaviour
         // don't do anything :) i love having good programming practices
         // perhaps start a coroutine for a time limit or smth. out of scope though
         Debug.Log(this + " waiting for verdict");
-        
-        // put papers
-        if (permitPrefab != null)
-        {
-            PaperManager.Instance.SpawnPapers(permitPrefab);
-        }
 
         if (isFinalNPC)
         {

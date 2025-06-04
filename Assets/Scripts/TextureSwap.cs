@@ -7,8 +7,6 @@ public class TextureChanger : MonoBehaviour
     public GameObject mesh;
 
     private Renderer rend;
-    
-    public bool forReject = false;
 
     void Start()
     {

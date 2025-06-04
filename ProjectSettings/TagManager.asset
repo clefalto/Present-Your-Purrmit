@@ -28,8 +28,6 @@ TagManager:
   - QDSUITextInputField
   - SamplesInfoPanel
   - QDSUIToggleCheckboxRadio
-  - RejectStamp
-  - AcceptStamp
   layers:
   - Default
   - TransparentFX
