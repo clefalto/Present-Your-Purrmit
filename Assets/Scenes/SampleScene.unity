@@ -32360,6 +32360,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 606441755}
     - target: {fileID: 5935989999156981200, guid: 5662f1dfa27e2144795c911ccde2f391, type: 3}
+      propertyPath: permitPrefab
+      value: 
+      objectReference: {fileID: 6016338486055832315, guid: b9444bf0f44484b40965b684d9412b76, type: 3}
+    - target: {fileID: 5935989999156981200, guid: 5662f1dfa27e2144795c911ccde2f391, type: 3}
       propertyPath: spawnLocation
       value: 
       objectReference: {fileID: 1194446734}
