@@ -1,10 +1,10 @@
 Welcome to your first day on the job!
 I'm your boss, and you've been selected as our new inspector!
-Our recent conflicts with Barkland have led to an increase in security at the border,
+Our conflict with Barkland have led to an increase in security at the border,
 and you're now here to serve Meowzkovia!
 Your job is to inspect permits and make sure they're legit. 
 After all, there might be dog spies running around! 
 Here, let me show you my permit for practice.
-Make sure that everyone has a non-expired permit and that they're vaccinated for Meowlaria.
+Check for expired permits and that everyone is vaccinated for Meowlaria.
 There's a calendar on your left in case you forget today's date.
 Once you stamp my permit, pass it back to me.
