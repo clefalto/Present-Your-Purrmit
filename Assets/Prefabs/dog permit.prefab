@@ -228,7 +228,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 61d80e460d1d7444dbb5385f6c6f14a9, type: 2}
+  - {fileID: 2100000, guid: 831411a59e365244ab26209b02b279ed, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 1277392827849767973}
   - component: {fileID: -4236553894224197347}
   m_Layer: 0
-  m_Name: Cowboy
+  m_Name: dog permit
   m_TagString: Permit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -446,7 +446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0b8deffedb78a4aa4525d32ab37a4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newMaterial: {fileID: 2100000, guid: 48a12b976b1a2a541b110c9077b8cad7, type: 2}
+  newMaterial: {fileID: 2100000, guid: 4f08879f7cd00b8498fe8f6f7a9e6600, type: 2}
   object2: {fileID: 0}
   mesh: {fileID: 937821184751819233}
   forReject: 1
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0b8deffedb78a4aa4525d32ab37a4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newMaterial: {fileID: 2100000, guid: b37db28120b28624ba14cedabc333194, type: 2}
+  newMaterial: {fileID: 2100000, guid: 08cfcce1ff5ed1741b25db548da39f79, type: 2}
   object2: {fileID: 0}
   mesh: {fileID: 937821184751819233}
   forReject: 0
@@ -646,7 +646,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: d6d008b24a7ed754081fa5f815929e75, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7d5e7bfa64cc5c549be0704a1f743146, type: 2}
+      objectReference: {fileID: 2100000, guid: 41163bf05067f4e40a3e40e3a27c5c3b, type: 2}
     - target: {fileID: 919132149155446097, guid: d6d008b24a7ed754081fa5f815929e75, type: 3}
       propertyPath: m_Name
       value: Mr. Mittens Permit
