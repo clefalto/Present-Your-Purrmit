@@ -1,8 +1,8 @@
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcM030zBiaXD-OiJhLH8jFBwFWac_tCqz1JTVvFK13xWOxxM-VufK0ON3MuFabFjZJ3bsLK6mxO1WYXc9BBnwAGJ1RdsFdbd1lHVdYuShx1fK_OnZawf0ZQTpQa6dZgljVz9oiS2Q?key=Uq_QqO-eit5CNMKxitTt-w)
 <p align="center">
-  Present Your Purrmit
-  Team 5
-  Alexis Manalastas, Benedict Ignacio, Garett Hammerle
+  Present Your Purrmit <br>
+  Team 5 <br>
+  Alexis Manalastas, Benedict Ignacio, Garett Hammerle <br>
 </p>
 
 
